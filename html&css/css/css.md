@@ -53,22 +53,16 @@ body {
     * 每个盒子都会换行
     * width 和 height 属性可以发挥作用
     * 内边距（padding）, 外边距（margin） 和 边框（border） 会将其他元素从当前盒子周围“推开”
-<br>
-<div style=";background-color: #f77;">div</div><br>
-<div style=";border: 1px solid;padding: 8px">div</div>
-<div style=";background-color: rgb(119, 223, 255);">div</div>
-<br>
+
+<br><img src="./block-box.png"><br>
 
 2. 内联盒子（Inline Box）
     * 盒子不会产生换行。
     * width 和 height 属性将不起作用。
     * 垂直方向的内边距、外边距以及边框会被应用但是不会把其他处于 inline 状态的盒子推开。
     * 水平方向的内边距、外边距以及边框会被应用且会把其他处于 inline 状态的盒子推开。
-<br>
-<span style="background-color: #f77;">span</span><br>
-<span style="border: 1px solid;padding: 8px">span</span>
-<span style="background-color: rgb(119, 223, 255);">span</span>
-<br>
+
+<br><img src="./inline-box.png"><br>
 
 ### 盒模型
 <img src="./box.png" width="400" height="200"><br>
